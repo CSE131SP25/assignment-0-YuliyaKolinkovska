@@ -29,11 +29,23 @@ public class RobotInstructions  {
 		 * You will add instructions at the end of the code to cause the support.robot to move
 		 * as you desire.
 		 */
-		robot.forward(60);
+		robot.forward(100);
 		robot.turnLeft(90);
-		robot.forward(23);
+		robot.forward(150);
 		robot.turnRight(90);
-		robot.forward(80);
+		robot.turnRight(20);
+		robot.forward(450);
+		robot.turnRight(180);
+		robot.turnLeft(45);
+		robot.forward(470);
+		robot.turnRight(115);
+		robot.forward(175);
+		robot.turnLeft(90);
+		robot.forward(100);
+		robot.turnRight(90);
+		robot.forward(45);
+		
+		
 	}
 
 }
